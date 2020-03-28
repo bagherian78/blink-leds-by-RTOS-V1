@@ -1,0 +1,31 @@
+Dependencies for Project 'blink', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\main.c)(0x5E7F521E)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__RTX -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\mtsal\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\mtsal\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS\RTX\INC-IC:\Users\mtsal\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F407xx-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Users\mtsal\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5C5BCF6A)
+I (C:\Users\mtsal\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x5C5BCF6A)
+I (C:\Users\mtsal\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D25CFFE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B1160)
+I (C:\Users\mtsal\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25CFFE)
+I (C:\Users\mtsal\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25CFFE)
+I (C:\Users\mtsal\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25CFFE)
+I (C:\Users\mtsal\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F7F0C)
+I (C:\Users\mtsal\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5C5BCF6A)
+I (C:\Users\mtsal\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5C8A63C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B1160)
+F (C:\Users\mtsal\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM4.lib)(0x5D25D000)()
+F (RTE\CMSIS\RTX_Conf_CM.c)(0x5C8A63C4)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__RTX -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\mtsal\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\mtsal\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS\RTX\INC-IC:\Users\mtsal\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F407xx-o .\objects\rtx_conf_cm.o --omf_browse .\objects\rtx_conf_cm.crf --depend .\objects\rtx_conf_cm.d)
+I (C:\Users\mtsal\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5C8A63C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B1160)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B1160)
+I (C:\Users\mtsal\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS\RTX\INC\RTX_CM_lib.h)(0x5D25D000)
+F (RTE\Device\STM32F407VGTx\startup_stm32f407xx.s)(0x5C5BCF6A)(--cpu Cortex-M4.fp.sp --pd "__RTX SETA 1" -g --apcs=interwork -I.\RTE\_Target_1-IC:\Users\mtsal\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\mtsal\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS\RTX\INC-IC:\Users\mtsal\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "STM32F407xx SETA 1"--list .\listings\startup_stm32f407xx.lst --xref -o .\objects\startup_stm32f407xx.o --depend .\objects\startup_stm32f407xx.d)
+F (RTE\Device\STM32F407VGTx\system_stm32f4xx.c)(0x5C5BCF6A)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__RTX -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\mtsal\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\mtsal\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS\RTX\INC-IC:\Users\mtsal\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F407xx-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+I (C:\Users\mtsal\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5C5BCF6A)
+I (C:\Users\mtsal\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x5C5BCF6A)
+I (C:\Users\mtsal\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D25CFFE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B1160)
+I (C:\Users\mtsal\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25CFFE)
+I (C:\Users\mtsal\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25CFFE)
+I (C:\Users\mtsal\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25CFFE)
+I (C:\Users\mtsal\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F7F0C)
+I (C:\Users\mtsal\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5C5BCF6A)
